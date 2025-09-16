@@ -41,3 +41,9 @@ This project was a great learning experience in responsive layout design using T
 
 
 ## Reflection
+Main challenges during the project was to come up with the right grid layout and make it responsive across all screen sizes. The col-span-2 and row-span-2 are tricky and not easy to keep the layout consistent. Also using large, fixed font sizes caused issues with text overflow and it took me some time to fix. 
+
+To solve the problem i started over my projcet by trying to adopt a mobile-first approach, and utilizing Tailwind CSS's responsive utility classess was very helpful. In addition, I read something about better performance on my way, and added the loading='lazy" for the images.
+
+If given more time, I would still work on the grid. Though I use the col-span-2 and row-span-2 still I am a bit off of the image given for the requirement.
+In addition, if given more time, I would spend more time on accessibility working with ARIA roles, keyboard navigation etc. I would also add more hover styling to some of the links.
