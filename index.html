@@ -15,7 +15,7 @@
     <title>Frontend Mentor | Bento grid</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-[#F3F2EC] p-10">
+  <body class="bg-[#F3F2EC] p-4 sm:p-6 lg:p-10">
     <!-- <main
       class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 p-6 font-sans"
     > -->
@@ -26,46 +26,49 @@
       <article
         class="bg-[#F7CAC9] rounded-2xl text-center px-6 pt-16 pb-4 min-h-[400px] w-full"
       >
-        <h1 class="text-5xl font-semibold text-black">
+        <h1 class="text-2xl sm:text-3xl lg:text-5xl font-semibold text-black">
           Create and schedule content 
         </h1>
-        <a class="text-blue-500 text-5xl " href="#">quicker.</a>
+        <a class="text-blue-500 text-2xl sm:text-3xl lg:text-5xl " href="#">quicker.</a>
         <img
           src="./assets/images/illustration-create-post.webp"
           alt="Create Post"
           class="w-full h-[120px] object-contain"
+          loading="lazy"
         />
       </article>
 
       <!-- Card 2: Social Media 10x Faster -->
       <article
-        class="bg-[#7965C1] col-span-2 text-white rounded-2xl p-5 flex flex-col items-center justify-center text-center min-h-[400px] w-full"
+        class="bg-[#7965C1] lg:col-span-2 sm:col-span-1 text-white rounded-2xl p-5 flex flex-col items-center justify-center text-center min-h-[400px] w-full"
       >
-        <h2 class="text-5xl leading-tight">
-          Social Media <span class="text-yellow-300">10x </span><br /> Fasterwith
+        <h2 class="text-2xl sm:text-3xl lg:text-5xl leading-tight">
+          Social Media <span class="text-yellow-300 text-2xl sm:text-3xl lg:text-5xl">10x </span><br /> Fasterwith
           AI
         </h2>
         <img
           src="./assets/images/illustration-five-stars.webp"
           alt="Five Stars"
           class="w-full h-[70px] object-contain"
+          loading="lazy"
         />
-        <p class="text-3xl">Over 4,000 5-star reviews</p>
+        <p class="text-xl sm:text-2xl lg:text-3xl">Over 4,000 5-star reviews</p>
       </article>
 
       <!-- Card 3: Schedule to Social Media -->
       <article
-        class="bg-[#D9C9FF] text-black text-center row-span-2 rounded-2xl pl-6 pt-8 flex flex-col min-h-[400px] w-full"
+        class="bg-[#D9C9FF] text-black text-center lg:row-span-2 sm:row-span-1 rounded-2xl pl-6 pt-8 flex flex-col min-h-[400px] w-full"
       >
         <div>
-          <h2 class="text-6xl font-semibold">Schedule to social media</h2>
+          <h2 class="text-2xl sm:text-4xl lg:text-6xl font-semibold">Schedule to social media</h2>
         </div>
         <img
           src="./assets/images/illustration-schedule-posts.webp"
           alt="Schedule Posts"
           class="w-full h-full object-contain"
+          loading="lazy"
         />
-        <p class="text-2xl pb-8 font-sans">
+        <p class="sm:text-xl lg:text-2xl max-w-[90%] mx-auto text-center pb-8 font-sans">
           Optimize post timings to publish content at the perfect time for your
           audience.
         </p>
@@ -73,10 +76,10 @@
 
       <!-- Card 4: AI Content Writing -->
       <article
-        class="bg-[#FEE191] text-black row-span-2 rounded-2xl p-6 flex flex-col min-h-[400px] w-full"
+        class="bg-[#FEE191] text-black lg:row-span-2 sm:row-span-1 rounded-2xl p-6 flex flex-col min-h-[400px] w-full"
       >
         <div>
-          <h2 class="text-8xl  ">
+          <h2 class="text-3xl sm:text-5xl lg:text-7xl max-w-[90%] mx-auto ">
             Write your content using AI
           </h2>
         </div>
@@ -84,6 +87,7 @@
           src="./assets/images/illustration-ai-content.webp"
           alt="AI Writing"
           class="w-full h-full object-contain mt-8"
+          loading="lazy"
         />
       </article>
 
@@ -95,8 +99,9 @@
           src="./assets/images/illustration-multiple-platforms.webp"
           alt="Profile"
           class="w-full h-18 rounded-full object-cover"
+          loading="lazy"
         />
-        <h2 class="text-6xl font-semibold mt-5">
+        <h2 class="text-2xl sm:text-4xl lg:text-6xl max-w-[90%] mx-auto font-semibold mt-5">
           Manage multiple accounts and platforms.
         </h2>
       </article>
@@ -105,7 +110,7 @@
       <article
         class="bg-[#FEE191] text-black rounded-2xl p-4 flex flex-col justify-between min-h-[400px] w-full"
       >
-        <h2 class="text-6xl font-semibold mb-2">
+        <h2 class="text-2xl sm:text-4xl lg:text-6xl max-w-[90%] mx-auto font-semibold mb-2">
           Maintain a consistent posting schedule.
         </h2>
 
@@ -113,35 +118,38 @@
           src="./assets/images/illustration-consistent-schedule.webp"
           alt="Schedule"
           class="max-w-full h-[250px] object-contain mt-4"
+          loading="lazy"
         />
       </article>
 
       <!-- Card 7: Audience Growth -->
       <article
-        class="bg-white rounded-2xl p-6 flex flex-col justify-center text-center min-h-[400px] shadow w-full"
+        class="bg-white rounded-2xl p-6 flex flex-col justify-center items-center text-center min-h-[400px] shadow w-full"
       >
-        <h2 class="text-8xl text-black">>56%</h2>
-        <p class="text-2xl text-gray-700 mt-1">faster audience growth</p>
-        <div class="flex justify-center gap-3 mt-4">
+        <h2 class="text-5xl sm:text-6xl lg:text-8xl text-black">>56%</h2>
+        <p class="text-xl sm:text-2xl text-gray-700 max-w-[90%] mx-auto text-center mt-2">faster audience growth</p>
+        <div class="flex justify-center mt-6 w-full max-w-xs">
           <img
             src="./assets/images/illustration-audience-growth.webp"
-            class="w-full h-18 rounded-full"
+            class="w-full h-auto object-contain"
+            loading="lazy"
           />
         </div>
       </article>
 
       <!-- Card 8: Grow Followers -->
       <article
-        class="bg-[#7965C1] text-white col-span-2 rounded-2xl p-6 flex flex-row min-h-[400px] w-full"
+        class="bg-[#7965C1] text-white lg:col-span-2 sm:col-span-1 rounded-2xl p-6 flex flex-col lg:flex-row items-center justify-between min-h-[400px] w-full space-y-6 lg:space-y-0 lg:space-x-6"
       >
         <img
           src="./assets/images/illustration-grow-followers.webp"
           alt="Grow Followers"
-          class="w-full h-full object-contain"
+          class="w-full lg:w-1/2 h-auto object-contain"
+          loading="lazy"
         />
-        <h1 class="text-8xl mt-20">
+        <p class="text-4xl sm:text-5xl lg:text-7xl max-w-[90%] mx-auto text-center lg:text-left">
           Grow followers with non-stop content.
-        </h1>
+        </p>
       </article>
     </main>
 
